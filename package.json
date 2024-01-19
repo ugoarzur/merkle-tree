@@ -1,0 +1,25 @@
+{
+  "name": "merkle-tree",
+  "version": "1.0.0",
+  "description": "A small playground to play with merkle tree data structure.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "email": "ugo.arzur@fabernovel.ey.com",
+    "name": "Ugo Arzur",
+    "url": "https://github.com/ugoarzur"
+  },
+  "devDependencies": {
+    "@types/keccak": "^3.0.4",
+    "@types/node": "^20.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "keccak": "^3.0.4"
+  }
+}
